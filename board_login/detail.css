@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    text-align: center;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.list{
+    margin-bottom: 10px;
+}
+.pn {
+    margin-bottom:10px;
+}
+.ctnt1{ 
+    font-family:'LeeSeoyun';
+    font-size:25px;
+}
+.ctnt1 div{ 
+    margin-bottom: 10px;
+}
+.ctnt1 .d1{
+    border: 4px solid cornflowerblue;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 0 auto;
+    width:50%;
+    margin-top: 10px; 
+}
+.d1 img{
+    width: 100%;
+}
+.list a{
+    text-decoration: none;
+    color:cornflowerblue;
+    font-family:'LeeSeoyun';
+    font-size:35px;
+    font-weight: bold;
+}
+.btn{
+    font-family:'LeeSeoyun';
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-size: 20px;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+}
+.btn:hover {
+    background-position: right center;
+}
+.btn2{
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    font-family:'LeeSeoyun';
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-size: 20px;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border:none;
+}
+.del{   
+    width:67px;
+    color: white;
+}
+.mod{   
+    width:67px;
+    color: white;
+}
+.btn2:hover {
+    background-position: right center;
+}
+.com1{
+    color:cornflowerblue;
+    font-weight: bold;
+    font-size:25px;
+    margin-top: 30px;
+}
+.comm{
+    border: 2px solid cornflowerblue;
+    border-radius: 15px;
+    padding: 10px 10px;
+    width:30%;
+    height:100%;
+    margin: 0 auto;
+    align-items: center;
+}
+#comment{
+    display: flex;
+    color:cornflowerblue;
+    font-size:15px;
+    justify-content: center;
+}
+#comment div{
+    padding-right: 10px;
+}
+.c{
+    border:4px solid cornflowerblue;
+    border-radius: 10px;
+    width:80%;
+    margin: 0 auto;
+}
+.cn{
+    margin-top:50px;
+    padding:20px 0px;
+}
+.nm{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
+.nm div{
+    margin-right: 15px;
+}
+.i_nm{
+    font-size:20px;
+    position: relative;
+}
+#ctnt{
+    border:3px solid black;
+    border-radius:5px;
+    width:350px;
+    height:150px;
+    position: relative;
+    font-family:'LeeSeoyun';
+}
+textarea::placeholder {
+    color:cornflowerblue;
+}
+
+input[type=submit]{
+    border:3px solid cornflowerblue;
+    border-radius:5px;
+    background-color:white;
+    color:cornflowerblue;
+    font-family:'LeeSeoyun';
+    padding: 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+}

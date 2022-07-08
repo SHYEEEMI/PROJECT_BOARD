@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'LeeSeoyun';
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+header{
+    font-size : 30px;
+    font-weight: bold;
+    color:cornflowerblue;
+    flex-direction: column;
+}
+.log{
+    font-size :20px;
+    font-weight: 600;
+    padding-top:7px;
+    color: rgb(37, 37, 37);
+}
+.log a{
+    padding-right:5px;
+}
+.log a:hover{
+    color:cornflowerblue;
+}
+
+html, body {
+    height: 100%;
+}
+
+#conntainer{
+    display: grid; 
+    grid-template-rows: 100px 1fr;
+    min-height: 100vh;
+    position: relative;
+}
+#container > header{
+    background-color: rgb(222, 237, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:80px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.pageSelected{
+    font-weight: bold;
+}
+.pageSelected > a{
+    color:cornflowerblue;
+}
+main{
+    display: grid;
+}
+main h1{
+    padding:10px 0px;
+    text-align: center;
+    color:cornflowerblue;
+}
+.num{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.num span{
+    padding-right:10px;
+}
+thead tr th{
+    padding-bottom: 10px;
+    font-size: 25px;
+    padding-right: 25px;
+}
+@media (min-width:400px) and (max-width:768px){
+    thead tr th{
+        font-size:15px;
+    }
+}
+thead tr{
+    color:cornflowerblue;
+}
+tbody tr td{
+    padding-bottom: 10px;
+    padding-right:20px;
+    text-align: center;
+}
+tbody .clo a:hover{
+    color:cornflowerblue;
+    font-weight: bold;
+}
+#search{
+    margin: 0 auto;
+}
+.sear{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.sear div{
+    margin-bottom:5px;
+}
+input[type="submit"]{
+    border:1px solid cornflowerblue;
+    background-color:#fff;
+    color:cornflowerblue;
+    padding: 1px 1px;
+}
+input[type="text"]{
+    border:1px solid cornflowerblue;
+    background-color:#fff;
+    color:cornflowerblue;
+    padding: 1px 1px;
+}
+select{
+    border:1px solid cornflowerblue;
+    background-color:#fff;
+    color:cornflowerblue;
+    padding: 1px 1px;
+}
+select:hover {
+    border-color: cornflowerblue;
+}
+.circular__img {
+    display:inline-block; 
+    border-radius:50%;
+    /* overflow:hidden; */
+}
+.circular__img img{
+    width:20%; 
+    height:20%; 
+    object-fit:cover;
+    border-radius:50%;
+}
+.corcular__size40{
+    width:40px; 
+    height:40px;
+}
